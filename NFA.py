@@ -47,7 +47,7 @@ for cuvant in cuv:                        #citim mai sus nr de cuvinte si parcur
              #print(S)
              AFN(x[1],cuvant[1:])                       #apelam functia AFN (din starea curenta in care ne aflam si cuvantul actual(literele))
              #S=S[:-1]
-        elif cuvant == 'lambda' and Final.count(Initial) == 1:    #***obtional*** verificam daca cuvantul este lambda + are o singura stare atunci starea initiala este si finala si rezulta automat ca ok devine 1
+        elif cuvant == 'lambda' and Final.count(Initial) == 1:    #***optional*** verificam daca cuvantul este lambda + are o singura stare atunci starea initiala este si finala si rezulta automat ca ok devine 1
             ok=1
     if ok==1:                                            #daca ok este 1 atunci afisam mesajul da altfel nu
         # sus=open('output.txt','w')
